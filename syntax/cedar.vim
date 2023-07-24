@@ -23,7 +23,7 @@ syn region cedarCondBlock start=/{/ end=/}/ fold transparent contains=cedarCondK
 syn match cedarTemplateKeywordsMatch /\(?principal\|?resource\)/
 
 " Comments
-syn region cedarComment start=/#/ end= /$/ oneline
+syn region cedarComment start=/\/\// end= /$/ oneline
 
 hi link cedarEffectKeyword Special
 hi link cedarScopeKeywordsMatch PreProc
