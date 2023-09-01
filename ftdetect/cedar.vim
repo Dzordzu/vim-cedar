@@ -1,1 +1,1 @@
-au BufRead,BufNewFile *.cdr set filetype=cedar
+au BufRead,BufNewFile *.cedar,*.yml set filetype=cedar
